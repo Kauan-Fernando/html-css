@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+    border: 2px, 2px, 2px;
+    border
+    width: 900px;
+    padding: 50px;
+}
+header {
+    margin: auto;
+    background-color: black;
+    width: 320px;
+    height: 90px;
+}
+
+#principal{
+
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+    margin: 2px;
+}
+#p1 {
+    color: rgb(109, 107, 107);
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 15px;
+    margin-top: 1px;
+
+}
+#link1 {
+    color: white;
+    :hover color: red;
+}
+#link1:hover {
+    color: rgb(161, 149, 149);
+
+}
+#caixa {
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+    border: 2px, solid, black;
+    width: 317px;
+    padding: px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.destaque {
+    background-color: rgba(0, 0, 0, 0.272);
+    color: white;
+    width: 230px;
+}
+#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position:  center center;
+    background-size: 420px,;
+    height: 220px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+
+}
+#des1 {
+    position: absolute;
+    bottom: -130px;
+
+}
+#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    height: 220px;
+    background-size: 720px;
+
+    background-attachment: fixed;
+}
+#des2{
+    position: absolute;
+    bottom: -745px;
+    background-color: rgba(0, 0, 0, 0.105);
+
+
+
+}
+
